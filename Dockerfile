@@ -1,6 +1,9 @@
-FROM ddidier/sphinx-doc:1.8.5-2
+FROM jonatkinson/python-poetry:3.7
 
-RUN pip install 'sphinxcontrib-apidoc == 0.3.0'\
+RUN pip install 'sphinx == 2.0.0'\
+                'sphinxcontrib-apidoc == 0.3.0'\
                 'better-apidoc == 0.3.1'\
                 'sphinx-materialdesign-theme == 0.1.11'\
-                'torch == 1.0.1'
+                'recommonmark == 0.5.0'\
+		'torch == 1.0.1'\
+                'numpy == 1.16'
