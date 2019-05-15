@@ -1,4 +1,4 @@
 # sphinx-doc-extended
-ddidier/sphinx-doc + better-apidoc + sphinx-materialdesign-theme
+ddidier/sphinx-doc + sphinxcontrib-apidoc + better-apidoc + sphinx-materialdesign-theme
 
-see [https://cloud.docker.com/repository/docker/dacit/sphinx-doc-extended]
+see https://cloud.docker.com/repository/docker/dacit/sphinx-doc-extended
