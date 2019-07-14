@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION=1.2
+VERSION=1.2.1
 IMAGE=dacit/sphinx-doc-extended
 ID=$(docker build  -t ${IMAGE}  .  | tail -1 | sed 's/.*Successfully built \(.*\)$/\1/')
 
